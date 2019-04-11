@@ -1,0 +1,34 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+	    <parent>
+        <groupId>com.jwebmp</groupId>
+        <artifactId>jwebmp-builder</artifactId>
+        <version>0.0.0_0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.jwebmp.jpms</groupId>
+    <artifactId>jpms-pending-modules</artifactId>
+    <packaging>pom</packaging>
+
+    <name>JPMS Pending Modules</name>
+    <description>The modules where we are waiting for the owners to move to JPMS</description>
+
+    <profiles>
+        <profile>
+            <id>devkit</id>
+            <modules>
+                <module>commons-fileupload</module>
+                <module>commons-io</module>
+                <module>commons-lang3</module>
+                <module>commons-text</module>
+
+                <module>jackson-parent</module>
+                <module>jackson-bom</module>
+
+                <module>guice-parent</module>
+            </modules>
+        </profile>
+    </profiles>
+
+</project>

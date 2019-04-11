@@ -1,0 +1,21 @@
+[submodule "commons-lang3"]
+	path = commons-lang3
+	url = https://github.com/GedMarc/commons-lang.git
+[submodule "commons-text"]
+	path = commons-text
+	url = https://github.com/GedMarc/commons-text.git
+[submodule "commons-io"]
+	path = commons-io
+	url = https://github.com/GedMarc/commons-io.git
+[submodule "commons-fileupload"]
+	path = commons-fileupload
+	url = https://github.com/GedMarc/commons-fileupload.git
+[submodule "jackson-parent"]
+	path = jackson-parent
+	url = https://github.com/GedMarc/jackson-parent.git
+[submodule "jackson-bom"]
+	path = jackson-bom
+	url = https://github.com/GedMarc/jackson-bom.git
+[submodule "guice-parent"]
+	path = guice-parent
+	url = https://github.com/GedMarc/guice-parent.git
