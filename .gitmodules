@@ -1,21 +1,28 @@
 [submodule "commons-lang3"]
 	path = commons-lang3
 	url = https://github.com/GedMarc/commons-lang.git
+	ignore = dirty
 [submodule "commons-text"]
 	path = commons-text
 	url = https://github.com/GedMarc/commons-text.git
+	ignore = dirty
 [submodule "commons-io"]
 	path = commons-io
 	url = https://github.com/GedMarc/commons-io.git
+	ignore = dirty
 [submodule "commons-fileupload"]
 	path = commons-fileupload
 	url = https://github.com/GedMarc/commons-fileupload.git
+	ignore = dirty
 [submodule "jackson-parent"]
 	path = jackson-parent
 	url = https://github.com/GedMarc/jackson-parent.git
+	ignore = dirty
 [submodule "jackson-bom"]
 	path = jackson-bom
 	url = https://github.com/GedMarc/jackson-bom.git
+	ignore = dirty
 [submodule "guice-parent"]
 	path = guice-parent
 	url = https://github.com/GedMarc/guice-parent.git
+	ignore = dirty
