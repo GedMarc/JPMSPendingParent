@@ -1,7 +1,6 @@
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-	    <parent>
+    <parent>
         <groupId>com.jwebmp</groupId>
         <artifactId>jwebmp-builder</artifactId>
         <version>0.0.0_0-SNAPSHOT</version>
@@ -23,14 +22,6 @@
         </profile>
 
         <profile>
-            <id>enable-jackson</id>
-            <modules>
-                <module>jackson-parent</module>
-                <module>jackson-bom</module>
-            </modules>
-        </profile>
-
-        <profile>
             <id>enable-commons</id>
             <modules>
                 <module>commons-fileupload</module>
@@ -39,6 +30,15 @@
                 <module>commons-text</module>
             </modules>
         </profile>
+
+        <profile>
+            <id>enable-jackson</id>
+            <modules>
+                <module>jackson-parent</module>
+                <module>jackson-bom</module>
+            </modules>
+        </profile>
+
     </profiles>
 
 </project>
