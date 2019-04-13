@@ -18,15 +18,25 @@
         <profile>
             <id>devkit</id>
             <modules>
+                <module>guice-parent</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>enable-jackson</id>
+            <modules>
+                <module>jackson-parent</module>
+                <module>jackson-bom</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>enable-commons</id>
+            <modules>
                 <module>commons-fileupload</module>
                 <module>commons-io</module>
                 <module>commons-lang3</module>
                 <module>commons-text</module>
-
-                <module>jackson-parent</module>
-                <module>jackson-bom</module>
-
-                <module>guice-parent</module>
             </modules>
         </profile>
     </profiles>
