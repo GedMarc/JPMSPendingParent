@@ -26,3 +26,9 @@
 	path = guice-parent
 	url = https://github.com/GedMarc/guice-parent.git
 	ignore = dirty
+[submodule "commons-collections"]
+	path = commons-collections
+	url = https://github.com/GedMarc/commons-collections.git
+[submodule "commons-math"]
+	path = commons-math
+	url = https://github.com/GedMarc/commons-math.git
