@@ -32,3 +32,6 @@
 [submodule "commons-math"]
 	path = commons-math
 	url = https://github.com/GedMarc/commons-math.git
+[submodule "mssql-jdbc"]
+	path = mssql-jdbc
+	url = https://github.com/GedMarc/mssql-jdbc.git

@@ -18,6 +18,7 @@
             <id>devkit</id>
             <modules>
                 <module>guice-parent</module>
+                <module>mssql-jdbc</module>
             </modules>
         </profile>
 
