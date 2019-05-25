@@ -29,9 +29,12 @@
 [submodule "commons-collections"]
 	path = commons-collections
 	url = https://github.com/GedMarc/commons-collections.git
+	ignore = dirty
 [submodule "commons-math"]
 	path = commons-math
 	url = https://github.com/GedMarc/commons-math.git
+	ignore = dirty
 [submodule "mssql-jdbc"]
 	path = mssql-jdbc
 	url = https://github.com/GedMarc/mssql-jdbc.git
+	ignore = dirty
