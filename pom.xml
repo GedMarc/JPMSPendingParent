@@ -41,13 +41,6 @@
         </profile>
 
         <profile>
-            <id>enable-hazelcast</id>
-            <modules>
-                <module>hazelcast</module>
-            </modules>
-        </profile>
-
-        <profile>
             <id>enable-apps</id>
             <modules>
                 <!--<module>commons-math</module>-->
