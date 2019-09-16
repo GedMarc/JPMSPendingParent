@@ -28,15 +28,7 @@
                 <module>commons-io</module>
                 <module>commons-lang3</module>
                 <module>commons-text</module>
-                <!--<module>commons-collections</module>-->
-            </modules>
-        </profile>
-
-        <profile>
-            <id>enable-jackson</id>
-            <modules>
-                <module>jackson-parent</module>
-                <module>jackson-bom</module>
+                <module>commons-collections</module>
             </modules>
         </profile>
 
