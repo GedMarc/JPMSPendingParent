@@ -29,13 +29,13 @@
                 <module>commons-lang3</module>
                 <module>commons-text</module>
                 <module>commons-collections</module>
+                <module>commons-math</module>
             </modules>
         </profile>
 
         <profile>
             <id>enable-apps</id>
             <modules>
-                <!--<module>commons-math</module>-->
                 <module>mssql-jdbc</module>
             </modules>
         </profile>
